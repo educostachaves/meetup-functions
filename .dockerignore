@@ -1,0 +1,17 @@
+**/data
+.build/
+coverage
+node_modules
+npm-debug.log
+Dockerfile*
+docker-compose*
+.DS_Store
+.git
+.gitignore
+README.md
+LICENSE
+.vscode
+.editorconfig
+.eslintrc.json
+pull_request_template.md
+jest.config.js

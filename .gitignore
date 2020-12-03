@@ -1,0 +1,14 @@
+# package directories
+node_modules
+
+# Just for development
+development-only
+
+# Build Files
+*build
+
+# Serverless directories
+.env
+.serverless
+*.map
+*.js

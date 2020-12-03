@@ -1,0 +1,16 @@
+version: '3'
+services:
+  functions:
+    build:
+      context: ./
+    environment:
+      - SERVERLESS_FUNCTION=hello
+    volumes:
+      - .:/app/
+      - /app/node_modules
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    driver: bridge
